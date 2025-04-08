@@ -1,0 +1,1 @@
+cubemx_g431rbt6_15thlqb_test01real\startup_stm32g431xx.o: startup_stm32g431xx.s

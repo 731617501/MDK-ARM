@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp.sp
+"cubemx_g431rbt6_15thlqb_test01real\startup_stm32g431xx.o"
+"cubemx_g431rbt6_15thlqb_test01real\main.o"
+"cubemx_g431rbt6_15thlqb_test01real\stm32g4xx_it.o"
+"cubemx_g431rbt6_15thlqb_test01real\stm32g4xx_hal_msp.o"
+"cubemx_g431rbt6_15thlqb_test01real\key.o"
+"cubemx_g431rbt6_15thlqb_test01real\lcd.o"
+"cubemx_g431rbt6_15thlqb_test01real\led.o"
+"cubemx_g431rbt6_15thlqb_test01real\stm32g4xx_hal_tim.o"
+"cubemx_g431rbt6_15thlqb_test01real\stm32g4xx_hal_tim_ex.o"
+"cubemx_g431rbt6_15thlqb_test01real\stm32g4xx_hal_pwr_ex.o"
+"cubemx_g431rbt6_15thlqb_test01real\stm32g4xx_hal.o"
+"cubemx_g431rbt6_15thlqb_test01real\stm32g4xx_hal_rcc.o"
+"cubemx_g431rbt6_15thlqb_test01real\stm32g4xx_hal_rcc_ex.o"
+"cubemx_g431rbt6_15thlqb_test01real\stm32g4xx_hal_flash.o"
+"cubemx_g431rbt6_15thlqb_test01real\stm32g4xx_hal_flash_ex.o"
+"cubemx_g431rbt6_15thlqb_test01real\stm32g4xx_hal_flash_ramfunc.o"
+"cubemx_g431rbt6_15thlqb_test01real\stm32g4xx_hal_gpio.o"
+"cubemx_g431rbt6_15thlqb_test01real\stm32g4xx_hal_exti.o"
+"cubemx_g431rbt6_15thlqb_test01real\stm32g4xx_hal_dma.o"
+"cubemx_g431rbt6_15thlqb_test01real\stm32g4xx_hal_dma_ex.o"
+"cubemx_g431rbt6_15thlqb_test01real\stm32g4xx_hal_pwr.o"
+"cubemx_g431rbt6_15thlqb_test01real\stm32g4xx_hal_cortex.o"
+"cubemx_g431rbt6_15thlqb_test01real\system_stm32g4xx.o"
+--strict --scatter "CubeMX_G431RBT6_15thLQB_Test01real\CubeMX_G431RBT6_15thLQB_Test01real.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "CubeMX_G431RBT6_15thLQB_Test01real.map" -o CubeMX_G431RBT6_15thLQB_Test01real\CubeMX_G431RBT6_15thLQB_Test01real.axf

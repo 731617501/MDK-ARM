@@ -1,0 +1,164 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.41.0.0
+Copyright (C) 2024 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 731617501@qq.com, 1, LIC=RC93N-Y8SEJ-AR7XW-Q7WDF-QH6EQ-4N80Z
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.41.0.0
+Toolchain Path:  C:\Users\73161\AppData\Local\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.22
+Assembler:       Armasm.exe V6.22
+Linker/Locator:  ArmLink.exe V6.22
+Library Manager: ArmAr.exe V6.22
+Hex Converter:   FromElf.exe V6.22
+CPU DLL:         SARMCM3.DLL V5.41.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      CMSIS_AGDI.dll V1.33.21.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+C:\Users\73161\Desktop\CubeMX_Project\CubeMX_G431RBT6_15thLQB_Test01real\MDK-ARM\CubeMX_G431RBT6_15thLQB_Test01real.uvprojx
+Project File Date:  03/31/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.22', folder: 'C:\Users\73161\AppData\Local\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'CubeMX_G431RBT6_15thLQB_Test01real'
+../Core/Src/main.c(97): warning: passing 'char[5]' to parameter of type 'u8 *' (aka 'unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+   97 |   LCD_ShowString( Line1 , Column8 , "DATA");
+      |                                     ^~~~~~
+../Core/Inc\lcd.h(199): note: passing argument to parameter 'ptr' here
+  199 | void LCD_ShowString(u8 Line, u16 Column, u8 *ptr);
+      |                                              ^
+../Core/Src/main.c(101): warning: data argument not used by format string [-Wformat-extra-args]
+  101 |     sprintf(message , "A=NULL     " , Afre); 
+      |                       ~~~~~~~~~~~~~   ^
+../Core/Src/main.c(105): warning: passing 'char[20]' to parameter of type 'u8 *' (aka 'unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+  105 |   LCD_ShowString( Line3 , Column5 , message);
+      |                                     ^~~~~~~
+../Core/Inc\lcd.h(199): note: passing argument to parameter 'ptr' here
+  199 | void LCD_ShowString(u8 Line, u16 Column, u8 *ptr);
+      |                                              ^
+../Core/Src/main.c(109): warning: data argument not used by format string [-Wformat-extra-args]
+  109 |     sprintf(message , "B=NULL     " , Afre); 
+      |                       ~~~~~~~~~~~~~   ^
+../Core/Src/main.c(113): warning: passing 'char[20]' to parameter of type 'u8 *' (aka 'unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+  113 |   LCD_ShowString( Line4 , Column5 , message);
+      |                                     ^~~~~~~
+../Core/Inc\lcd.h(199): note: passing argument to parameter 'ptr' here
+  199 | void LCD_ShowString(u8 Line, u16 Column, u8 *ptr);
+      |                                              ^
+../Core/Src/main.c(118): warning: passing 'char[5]' to parameter of type 'u8 *' (aka 'unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+  118 |   LCD_ShowString( Line1 , Column8 , "DATA");
+      |                                     ^~~~~~
+../Core/Inc\lcd.h(199): note: passing argument to parameter 'ptr' here
+  199 | void LCD_ShowString(u8 Line, u16 Column, u8 *ptr);
+      |                                              ^
+../Core/Src/main.c(124): warning: data argument not used by format string [-Wformat-extra-args]
+  124 |     sprintf(message , "A=NULL     " , AT); 
+      |                       ~~~~~~~~~~~~~   ^
+../Core/Src/main.c(128): warning: passing 'char[20]' to parameter of type 'u8 *' (aka 'unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+  128 |   LCD_ShowString( Line3 , Column5 , message);
+      |                                     ^~~~~~~
+../Core/Inc\lcd.h(199): note: passing argument to parameter 'ptr' here
+  199 | void LCD_ShowString(u8 Line, u16 Column, u8 *ptr);
+      |                                              ^
+../Core/Src/main.c(132): warning: data argument not used by format string [-Wformat-extra-args]
+  132 |     sprintf(message , "B=NULL     " , BT); 
+      |                       ~~~~~~~~~~~~~   ^
+../Core/Src/main.c(136): warning: passing 'char[20]' to parameter of type 'u8 *' (aka 'unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+  136 |   LCD_ShowString( Line4 , Column5 , message);
+      |                                     ^~~~~~~
+../Core/Inc\lcd.h(199): note: passing argument to parameter 'ptr' here
+  199 | void LCD_ShowString(u8 Line, u16 Column, u8 *ptr);
+      |                                              ^
+../Core/Src/main.c(142): warning: passing 'char[5]' to parameter of type 'u8 *' (aka 'unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+  142 |   LCD_ShowString( Line1 , Column8 , "PARA");
+      |                                     ^~~~~~
+../Core/Inc\lcd.h(199): note: passing argument to parameter 'ptr' here
+  199 | void LCD_ShowString(u8 Line, u16 Column, u8 *ptr);
+      |                                              ^
+../Core/Src/main.c(144): warning: passing 'char[20]' to parameter of type 'u8 *' (aka 'unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+  144 |   LCD_ShowString( Line3 , Column5 , message);
+      |                                     ^~~~~~~
+../Core/Inc\lcd.h(199): note: passing argument to parameter 'ptr' here
+  199 | void LCD_ShowString(u8 Line, u16 Column, u8 *ptr);
+      |                                              ^
+../Core/Src/main.c(146): warning: passing 'char[20]' to parameter of type 'u8 *' (aka 'unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+  146 |   LCD_ShowString( Line4 , Column5 , message);
+      |                                     ^~~~~~~
+../Core/Inc\lcd.h(199): note: passing argument to parameter 'ptr' here
+  199 | void LCD_ShowString(u8 Line, u16 Column, u8 *ptr);
+      |                                              ^
+../Core/Src/main.c(148): warning: passing 'char[20]' to parameter of type 'u8 *' (aka 'unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+  148 |   LCD_ShowString( Line5 , Column5 , message);
+      |                                     ^~~~~~~
+../Core/Inc\lcd.h(199): note: passing argument to parameter 'ptr' here
+  199 | void LCD_ShowString(u8 Line, u16 Column, u8 *ptr);
+      |                                              ^
+../Core/Src/main.c(153): warning: passing 'char[5]' to parameter of type 'u8 *' (aka 'unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+  153 |   LCD_ShowString( Line1 , Column8 , "RECD");
+      |                                     ^~~~~~
+../Core/Inc\lcd.h(199): note: passing argument to parameter 'ptr' here
+  199 | void LCD_ShowString(u8 Line, u16 Column, u8 *ptr);
+      |                                              ^
+../Core/Src/main.c(155): warning: passing 'char[20]' to parameter of type 'u8 *' (aka 'unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+  155 |   LCD_ShowString( Line3 , Column5 , message);
+      |                                     ^~~~~~~
+../Core/Inc\lcd.h(199): note: passing argument to parameter 'ptr' here
+  199 | void LCD_ShowString(u8 Line, u16 Column, u8 *ptr);
+      |                                              ^
+../Core/Src/main.c(157): warning: passing 'char[20]' to parameter of type 'u8 *' (aka 'unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+  157 |   LCD_ShowString( Line4 , Column5 , message);
+      |                                     ^~~~~~~
+../Core/Inc\lcd.h(199): note: passing argument to parameter 'ptr' here
+  199 | void LCD_ShowString(u8 Line, u16 Column, u8 *ptr);
+      |                                              ^
+../Core/Src/main.c(159): warning: passing 'char[20]' to parameter of type 'u8 *' (aka 'unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+  159 |   LCD_ShowString( Line5 , Column5 , message);
+      |                                     ^~~~~~~
+../Core/Inc\lcd.h(199): note: passing argument to parameter 'ptr' here
+  199 | void LCD_ShowString(u8 Line, u16 Column, u8 *ptr);
+      |                                              ^
+../Core/Src/main.c(161): warning: passing 'char[20]' to parameter of type 'u8 *' (aka 'unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+  161 |   LCD_ShowString( Line6 , Column5 , message);
+      |                                     ^~~~~~~
+../Core/Inc\lcd.h(199): note: passing argument to parameter 'ptr' here
+  199 | void LCD_ShowString(u8 Line, u16 Column, u8 *ptr);
+      |                                              ^
+19 warnings generated.
+compiling main.c...
+linking...
+Program Size: Code=25024 RO-data=5912 RW-data=32 ZI-data=1976  
+FromELF: creating hex file...
+"CubeMX_G431RBT6_15thLQB_Test01real\CubeMX_G431RBT6_15thLQB_Test01real.axf" - 0 Error(s), 19 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.1.0.pack
+                ARM::CMSIS@6.1.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.1.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32G4xx_DFP.1.2.0.pack
+                Keil::STM32G4xx_DFP@1.2.0
+                STMicroelectronics STM32G4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_CubeMX_G431RBT6_15thLQB_Test01real
+  C:/Users/73161/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include
+  C:/Users/73161/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.2.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@6.1.0
+      Include file:  CMSIS/Core/Include/tz_context.h
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
